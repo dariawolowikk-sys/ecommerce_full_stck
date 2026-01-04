@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.group:hover .group-hover\:scale-105 {
+  transform: scale(1.05);
+}
+.group:hover .group-hover\:bg-gradient-to-t {
+  background: linear-gradient(to top, rgba(0,0,0,0.2), transparent);
+}
